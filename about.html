@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>About Me</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!--- Navigation -->
+
+	<nav class = "navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class = "container-fluid">
+            <!--Logo-->
+            <a class = "navbar-brand" href="index.php">
+                <em class = "fas fa-laptop-code fa-lg"> Marco's Website</em>
+            </a>
+            <!--Create collapse button for small nav bar-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+            <!--What appears in the nav bar-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--Options-->
+                <ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="about.html">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Me</a>
+					</li>
+				</ul>
+            </div>
+        </div>
+    </nav>
+	<!--- End Navigation -->
+
+    <!--Create grid layout-->
+    <div class = "container">
+        <div class = "row">
+            <!--Left side-->
+            <div class="m-0 p-2 col-md-7 col-lg-7">
+                <!--Header-->
+                <h3 id = "leftHeader" class = "border-bottom border-light text-light p-2">Experience</h3>
+                <!--Left card 1-->
+                <div class = "p-2">
+                    <div id = "leftCard1" class = "card">
+                        <div class = "card-header bg-dark text-light">
+                            XSEDE Data Science Internship (Summer 2020)
+                        </div>
+                        <div class = "p-4">
+                            <p class = "card-text">
+                                At XSEDE, I was responsible to learn to apply data analysis and computational thinking to a social challenge that existed in Los Angeles. I found gunshot detection systems to be a potential solution towards gun violence. I accessed nationwide police departments CSV files who already use similar technologies. I used IDE’s such as Jupyter Notebook and RStudio, to design and write code to create, analytical/statistical graphs, tables, and charts to evaluate my data. With my data gathered, and the help of my mentor, I created a presentation to present my findings, data, and solution at the conclusion of my internship. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Left card 2-->
+                <div class = "p-2">
+                    <div id = "leftCard2" class = "card">
+                        <div class = "card-header bg-dark text-light">
+                            NASA Data Intensive Research and Education for STEM (August 2019 - March 2020)
+                        </div>
+                        <div class = "p-4">
+                            <p class = "card-text">
+                                At NASA DIRECT STEM, I was mentored and trained with professionals from UC Irvine, and JPL in computational physics, cloud computing, and data analysis by attending workshops that directly met NASA’s mission goal and standards. My selected contributions consisted of reinforcing my python skills by analyzing and developing two-dimensional and three-dimensional statistical graphs consisting of climate change data. With the contributions from XSEDE and TACC, I also had hands on experience to upload my work to supercomputers and understand their fundamental functions.
+                            </p>
+                            <!--Button-->
+                            <button type="button" class="btn btn-primary">See Deal</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!--Right side-->
+            <div class="m-0 p-2 col-md-5 col-lg-5 ">
+                <!--Header-->
+                <h3 id = "rightAd" class = "border-bottom border-light text-light  p-2">What do I know?</h3>
+                <!--Right card 1-->
+                <div class = "p-2">
+                    <div id = "rightCard1" class = "card">
+                        <div class = "p-4">
+                            <p class = "card-text">
+                                <div class="dark">
+                                    <p>- Proficiency in Java, procedural programming, object oriented programming, data structures, and algorithms </p>
+                                    <p>- Fundamanetal knowledge in Python, procedural programming, corresponding libraries, and syntax </p>
+                                    <p>- Fundamentl knowledge in MySQL databases</p>
+                                    <p>- Fundamentl knowedge in MongoDB databases</p>
+                                    <p>- Beginner in HTML5, CSS, and Bootstrap </p>
+                                  </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!--- Start Footer -->
+	<footer>
+		<div class="text-center p-2 text-light">
+			Copyright © 2021, Marco Gonzalez. All rights reserved.
+		</div><!--- End of Container -->
+	</footer>
+	<!--- End of Footer -->
+
+<!--- Script Source Files -->
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
