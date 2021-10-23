@@ -6,6 +6,16 @@
 	<title>Contact Me</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link href="style.css" rel="stylesheet">
+    <script src = 'script.js'></script>
+    <script 
+        type="text/javascript" 
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_2pUqmo2GX6ND7pRgqcWrw");
+        })();
+    </script>
 </head>
 <body>
 	
@@ -75,20 +85,25 @@
         </div>
 
         <div class = "p-4">
-            <div id = "Card3" class = "card">
+            <div id = "Card1" class = "card">
                 <div class = "card-header bg-dark text-light">
-                    <e class="fas fa-envelope-square"> Email</e>
+                    <em class="fas fa-envelope-square"> Send message</em>
                 </div>
                 <div class = "p-5">
                     <p class = "card-text text-dark">
-                        If you would like to contact me about any opportunities, feel free to contact me through my email! 
+                        If you would like to contact me about any opportunities, feel free to send me a message! I will answer back as soon as I can!
                     </p>
-                <a class="btn btn-primary" href="mailto: mgonzalez12000@gmail.com" role="button">Send Email</a>
+                    <p style="color:red;">
+                        NOTE: Once you hit 'Send Message', your message will be sent. Clearing the form is a bug that needs to be fixed.
+                    </p>
+                    <input type = "text" id = "toName" placeholder="Enter recipiants name">
+                    <input type = "text" id = "fromName" placeholder="Enter your name">
+                    <input type = "text" id = "msg" placeholder="Enter your message">
+                    <button onclick="sendMail()"> Send Message </button>
+                </div>
             </div>
         </div>
     </div>  
-    </div>                    
-
 	<!--- Start Footer -->
 	<footer>
 		<div class="text-center p-2 text-light">
