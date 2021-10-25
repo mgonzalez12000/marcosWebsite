@@ -6,6 +6,7 @@ body {
   background-color: #000;
   color: #eee;
 }
+
 .jumbotron{
   margin-top: 0%;
   height: 0%;
@@ -14,7 +15,6 @@ body {
   margin-top: 0%;
   height: 0%;
 }
-
 
 .carousel-inner img {
   width: 100%;
@@ -115,6 +115,95 @@ p{
   font-size: large;
 }
 
+.wrapper{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.wrapper h2{
+  text-align: left;
+}
+.line{
+  height: 25px;
+  min-width: 800px;
+  margin: 0 auto 10px;
+  line-height: 25px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  padding: 0 0 0 10px;
+  position: relative;
+}
+
+.line:before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 25px;
+  top: 0;
+  z-index: -2;
+  background: #d2d6d7;
+}
+
+.line:after{
+  content: '';
+  background:#0fbb29;
+  height: 25px;
+  transition: 0.8s;
+  display: block;
+  width: 100%;
+  animation: animate 1 4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.line1:after{
+  max-width: 100%;
+}
+
+.line2:after{
+  max-width: 80%;
+}
+
+.line3:after{
+  max-width: 60%;
+}
+
+.line4:after{
+  max-width: 90%;
+}
+
+.line5:after{
+  max-width: 90%;
+}
+
+.line6:after{
+  max-width: 75%;
+}
+
+@keyframes animate {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+#biography{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.icon-background {
+  color: #0eab25;
+}
 
 
 
