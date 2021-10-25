@@ -10,7 +10,7 @@
 <body>
 	
 	<!--- Navigation -->
-	<nav class = "navbar navbar-dark navbar-expand-lg">
+	<nav id = 'navbar-example2'class = "navbar navbar-dark navbar-expand-lg">
         <div class = "container-fluid">
             <!--Logo-->
             <a class = "navbar-brand">
@@ -30,38 +30,62 @@
 					<li class="nav-item">
 						<a class="nav-link" href="about.html">About Me</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact Me</a>
-					</li>
 				</ul>
             </div>
         </div>
     </nav>
 	<!--- End Navigation -->
 	<!--Profile picture-->
-	<img src="profile.jpg" alt="Paris" class="center">
+	<img src="profile.jpg" id = "photo" class="center">
 	<!--end of profile picture-->
 	<!--Typing animation-->
 	<div class="container">
 		<p>I am <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
     </div>
-	<!--End tpying animation-->
-
-	<div class="d-flex justify-content-center">
-		<h1>Welcome</h1>
-	 </div>
-
-	<div class="m-7 ">
-		<div class="card">
-			<div class="card-body">
-				<p>I am a computer science student pursuing a bachelors of science at California State University, Los Angeles. During my time at CSULA, I have dedicated a lot of my own time to study and learn about the different fields of study for computer science. As a result, I have found interests in data science, web & internet programming, software engineering, and Agile/DevOps methodology. Due to my devotion and hard work, I have found myself to be fortunate enough to find and take part of opportunities to showcase and test my programming skills. Some of my hobbies include coding, playing videogames, listening/discovering new music, and hanging out with my friends. I also love puppies! I initially created my personal website with no prior knowledge of web development. As I continue to learn more technologies, expect this website to constantly be improving and changing. This website uses HTML, CSS, and the Bootstrap framework for responsiveness. Feel free to take a look!</p>
+	<!--Bio-->
+	<section class = 'page-section' id = 'services'>
+		<div class = 'containterInfo'></div>
+		<div class = "row text-center">
+			<div class = "col-md-4">
+				<span class = "fa-stack fa-4x">
+					<i class = "fas fa-circle fa-stack-2x icon-background"></i>
+					<a href = "mailto: mgonzalez12000@gmail.com"><i class = "far fa-envelope fa-stack-1x fa-inverse"></i></a>
+				</span>
 			</div>
-		  </div>
-	</div>
+			<div class = "col-md-4">
+				<span class = "fa-stack fa-4x">
+					<i class = "fas fa-circle fa-stack-2x icon-background"></i>
+					<a href = "https://www.linkedin.com/in/marcog12000"><i class = "fab fa-linkedin-in fa-stack-1x fa-inverse"></i></a>
+				</span>
+			</div>
+			<div class = "col-md-4">
+				<span class = "fa-stack fa-4x">
+					<i class = "fas fa-circle fa-stack-2x icon-background"></i>
+					<a href = 'https://github.com/mgonzalez12000'><i class = "fab fa-github fa-stack-1x fa-inverse"></i></a>
+				</span>
+			</div>
+		</div>
+		<br>
+		<div class = 'text-center' id = 'biography'>
+			<h2 class = 'section-heading text-uppercase'>Welcome</h2>
+			<p>
+				Marco Gonzalez is Computer Science student attending California State University Los Angeles. 
+				During his time at CSULA, Marco has developed ineters in Software Engineering, Web & Internet programming
+				Data Science, and Agile/DevOps methodology. In his free time, Marco likes to play videogames,
+				listen to music or discover new music/artists, and hanging out with his friends. Marco also loves puppies!
+				Marco inititally developed this website from the ground up with HTML, CSS, and Bootstrap for a responsive
+				user interface across devices. As Marco continues to learn new technologies, this website will continue to be
+				updated and optimized. This site does not directly collect or store visitors information. All open source
+				code is available on Marco's Github.
 
-	<!--- End Jumbotron -->
+			</p>
+		</div>
+		<br>
+	</section>
 
-	<!--- Start Footer -->
+
+	
+		<!--- Start Footer -->
 	<footer>
 		<div class="text-center p-2  text-light">
 			Copyright © 2021, Marco Gonzalez. All rights reserved.
