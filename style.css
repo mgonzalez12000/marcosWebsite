@@ -12,17 +12,19 @@ body {
   height: 100%;
 }
 
-.btn-purple {
-  border-color: #8366B0;
-  background-color: #8366B0;
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
   color: white;
-  margin: 1rem;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
 }
-.btn-purple:hover,
-.btn-purple:focus {
-  border-color: #594781;
-  background-color: #594781;
-  color: white;
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
 
 .feature img {
@@ -57,4 +59,90 @@ footer {
 
 p{
   font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.wrapper h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.wrapper h2{
+  text-align: left;
+}
+.line{
+  height: 25px;
+  min-width: 500px;
+  margin: 0 auto 10px;
+  line-height: 25px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  padding: 0 0 0 10px;
+  position: relative;
+}
+
+.line:before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 25px;
+  top: 0;
+  z-index: -2;
+  background: #d2d6d7;
+}
+
+.line:after{
+  content: '';
+  background:#0fbb29;
+  height: 25px;
+  transition: 0.8s;
+  display: block;
+  width: 100%;
+  animation: animate 1 4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.line1:after{
+  max-width: 100%;
+}
+
+.line2:after{
+  max-width: 100%;
+}
+
+.line3:after{
+  max-width: 60%;
+}
+
+.line4:after{
+  max-width: 90%;
+}
+
+.line5:after{
+  max-width: 90%;
+}
+
+.line6:after{
+  max-width: 75%;
+}
+
+.line7:after{
+  max-width: 55%;
+}
+h2{
+  color:white
+}
+
+@keyframes animate {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
 }
