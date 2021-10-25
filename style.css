@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   font-family: 'IBM Plex Sans', sans-serif;
   color: #505962;
-  background-color: #505962;
+  background-color: #000;
 }
 
 .carousel-inner img {
@@ -30,7 +30,7 @@ body {
 }
 
 footer {
-  background-color: #40474e;
+  background-color: #1f2226;
   background-size: cover;
   color: white;
 }
@@ -53,4 +53,8 @@ footer {
 
 [class*="col-"] {
   padding: 1rem;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
 }
