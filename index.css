@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #000;
+  color: #eee;
+}
+.jumbotron{
+  margin-top: 0%;
+  height: 0%;
+}
+.bio{
+  margin-top: 0%;
+  height: 0%;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-purple {
+  border-color: #8366B0;
+  background-color: #8366B0;
+  color: white;
+  margin: 1rem;
+}
+.btn-purple:hover,
+.btn-purple:focus {
+  border-color: #594781;
+  background-color: #594781;
+  color: white;
+}
+
+.feature img {
+  padding: 1.5rem;
+}
+
+footer {
+  background-color: #1f2226;
+  background-size: cover;
+  color: white;
+}
+
+/*Bottom footer padding */
+.row {
+  padding-bottom: 35px;
+}
+
+.center {
+  padding-top: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+}
+
+/*-- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+.container {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0%;
+}
+.container p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #0fbb29;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+.card {
+
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+p{
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
