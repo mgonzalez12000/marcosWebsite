@@ -5,12 +5,12 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<title>Welcome</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-	<link href="style.css" rel="stylesheet">
+	<link href="index.css" rel="stylesheet">
 </head>
 <body>
 	
 	<!--- Navigation -->
-	<nav class = "navbar navbar-dark bg-dark navbar-expand-lg">
+	<nav class = "navbar navbar-dark navbar-expand-lg">
         <div class = "container-fluid">
             <!--Logo-->
             <a class = "navbar-brand">
@@ -38,26 +38,27 @@
         </div>
     </nav>
 	<!--- End Navigation -->
+	<!--Profile picture-->
+	<img src="profile.jpg" alt="Paris" class="center">
+	<!--end of profile picture-->
+	<!--Typing animation-->
 	<div class="container">
+		<p>I am <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    </div>
+	<!--End tpying animation-->
 
-	<!--- Image Slider -->
-	<div class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active"><img src="background.jpg"></div>
-		</div>
-	</div>
-	<!--- End Image Slider -->
+	<div class="d-flex justify-content-center">
+		<h1>Welcome</h1>
+	 </div>
 
-	<!--- Start Jumbotron -->
-	<div class="jumbotron">
-		<div class="container">
-			<div class = "p-4">
-			<h3 id = "leftHeader" class = "border-bottom border-light text-light p-2 text-center">Introduction</h3>
-			<div class="row justify-content-center text-center pt-5 text-light font-family: ">
-				<p style="font-family:verdana"> I am a computer science student pursuing a bachelors of science at California State University, Los Angeles. During my time at CSULA, I have dedicated a lot of my own time to study and learn about the different fields of study for computer science. As a result, I have found interests in data science, web & internet programming, software engineering, and Agile/DevOps methodology. Due to my devotion and hard work, I have found myself to be fortunate enough to find and take part of opportunities to showcase and test my programming skills. Some of my hobbies include coding, playing videogames, listening/discovering new music, and hanging out with my friends. I also love puppies! I initially created my personal website with no prior knowledge of web development. As I continue to learn more technologies, expect this website to constantly be improving and changing. This website uses HTML, CSS, and the Bootstrap framework for responsiveness. Feel free to take a look! </p>
-			</div><!--- End Row -->
-		</div><!--- End Container -->
+	<div class="m-5 p-20 col-md-20 ">
+		<div class="card">
+			<div class="card-body">
+				<p>I am a computer science student pursuing a bachelors of science at California State University, Los Angeles. During my time at CSULA, I have dedicated a lot of my own time to study and learn about the different fields of study for computer science. As a result, I have found interests in data science, web & internet programming, software engineering, and Agile/DevOps methodology. Due to my devotion and hard work, I have found myself to be fortunate enough to find and take part of opportunities to showcase and test my programming skills. Some of my hobbies include coding, playing videogames, listening/discovering new music, and hanging out with my friends. I also love puppies! I initially created my personal website with no prior knowledge of web development. As I continue to learn more technologies, expect this website to constantly be improving and changing. This website uses HTML, CSS, and the Bootstrap framework for responsiveness. Feel free to take a look!</p>
+			</div>
+		  </div>
 	</div>
+
 	<!--- End Jumbotron -->
 
 	<!--- Start Footer -->
@@ -72,6 +73,8 @@
 <!--Font Awesome-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!--Typing effect script-->
+<script src = 'typewriter.js'></script>
 <!--- End of Script Source Files -->
 
 </body>
