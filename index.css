@@ -42,6 +42,7 @@ footer {
   background-color: #1f2226;
   background-size: cover;
   color: white;
+  padding-right: 0;
 }
 
 /*Bottom footer padding */
@@ -204,12 +205,3 @@ p{
 .icon-background {
   color: #0eab25;
 }
-
-
-
-
-
-
-
-
-
