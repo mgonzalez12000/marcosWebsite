@@ -67,9 +67,9 @@ p {
   margin-top: 40px;
 }
 
-.wrapper h2 {
-  text-align: left;
-  font-family: "tahome";
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100;
 }
 
 .line {
