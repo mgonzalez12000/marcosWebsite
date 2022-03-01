@@ -57,21 +57,22 @@ footer {
   padding: 1rem;
 }
 
-p{
+p {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
-.wrapper h1{
+.wrapper h1 {
   text-align: center;
   text-transform: uppercase;
   margin-top: 40px;
 }
-.wrapper h2{
+
+.wrapper h2 {
   text-align: left;
+  font-family: "tahome";
 }
-.line{
+
+.line {
   height: 25px;
   min-width: 100px;
   margin: 0 auto 10px;
@@ -82,7 +83,7 @@ p{
   position: relative;
 }
 
-.line:before{
+.line:before {
   content: '';
   width: 100%;
   position: absolute;
@@ -93,9 +94,9 @@ p{
   background: #d2d6d7;
 }
 
-.line:after{
+.line:after {
   content: '';
-  background:#0fbb29;
+  background: #0fbb29;
   height: 25px;
   transition: 0.8s;
   display: block;
@@ -107,42 +108,44 @@ p{
   z-index: -1;
 }
 
-.line1:after{
+.line1:after {
   max-width: 100%;
 }
 
-.line2:after{
+.line2:after {
   max-width: 100%;
 }
 
-.line3:after{
+.line3:after {
   max-width: 60%;
 }
 
-.line4:after{
+.line4:after {
   max-width: 90%;
 }
 
-.line5:after{
+.line5:after {
   max-width: 90%;
 }
 
-.line6:after{
+.line6:after {
   max-width: 75%;
 }
 
-.line7:after{
+.line7:after {
   max-width: 55%;
 }
-h3{
-  color:white
+
+h3 {
+  color: white
 }
 
 @keyframes animate {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+
+  100% {
     width: 100%;
   }
 }
